@@ -1,4 +1,4 @@
-package com.example.fragments;
+package com.example.EcoLoc1;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

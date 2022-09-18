@@ -1,4 +1,4 @@
-package com.example.fragments;
+package com.example.EcoLoc1;
 
 import org.junit.Test;
 
