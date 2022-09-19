@@ -8,6 +8,22 @@
 
 
     <EditText
+        android:id="@+id/TitleLoc"
+        android:layout_width="254dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:inputType="textShortMessage|textLongMessage|textAutoCorrect|textMultiLine|text"
+        android:text="Title"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.222"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
         android:id="@+id/TextLocation"
         android:layout_width="375dp"
         android:layout_height="127dp"
@@ -19,20 +35,33 @@
         android:text="Location"
 
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/Save"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="19dp"
         android:layout_marginEnd="25dp"
-        android:layout_marginBottom="8dp"
-        android:text="Save"
 
+        android:text="Save"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/TextLocation" />
+
+    <TextView
+        android:id="@+id/TvText"
+        android:layout_width="385dp"
+        android:layout_height="323dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="44dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.911"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Save" />
 
 </android.support.constraint.ConstraintLayout>
